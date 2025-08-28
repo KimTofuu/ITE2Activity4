@@ -132,11 +132,12 @@ button {
     background-size: 200% 100%;
     background-position: left;
     margin-bottom: 24px;
+    box-shadow: 10px 8px 24px rgba(26, 25, 25, 0.4);
 }
 
 button:hover {
     transform: translateY(-3px) scale(1.04);
-    box-shadow: 0 8px 24px rgba(247, 102, 111, 0.18);
+    box-shadow: 20px 7px 24px rgba(0, 0, 0, 0.7);
     background-position: right;
 }
 
@@ -152,7 +153,7 @@ button:hover {
 
 
 #profile.show, #moreDeets.show {
-    display: block;
+    /* display: block; */
     opacity: 1;
     transform: translateY(0);
 }
