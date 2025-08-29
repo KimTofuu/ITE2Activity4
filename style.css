@@ -120,6 +120,7 @@ button {
     padding: 14px 36px;
     background: linear-gradient(90deg, #a4508b 0%, #f7666f 100%);
     color: #fff;
+    z-index: 2;
     border: none;
     border-radius: 30px;
     font-size: 1.2rem;
@@ -146,6 +147,12 @@ button:hover {
     flex-direction: row;
     gap: 16px;
     margin-top: 20px;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
 }
 
 #profile{
@@ -202,4 +209,79 @@ button:hover {
     max-width: 260px;
     text-align: left;
     margin-bottom: 16px;
+}
+
+.custom-shape-divider-bottom-1756452135 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1756452135 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 209px;
+}
+
+.custom-shape-divider-bottom-1756452187 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1756452187 svg {
+    position: relative;
+    display: block;
+    width: calc(178% + 1.3px);
+    height: 408px;
+}
+
+.custom-shape-divider-bottom-1756452230 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1756452230 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1756452230 .shape-fill {
+    fill: #800080;
+}
+
+.custom-shape-divider-top-1756452306 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1756452306 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1756452306 .shape-fill {
+    fill: #800080;
 }
