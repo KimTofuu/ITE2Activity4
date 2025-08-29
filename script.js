@@ -9,7 +9,7 @@ document.getElementById('profileBtn').onclick = function() {
 
 document.getElementById('viewMore').onclick = function() {
     var moreDeets = document.getElementById('moreDeets');
-    moreDeets.style.display = 'block';
+    moreDeets.style.display = 'flex';
     setTimeout(function() {
         moreDeets.classList.add('show');
     }, 10);

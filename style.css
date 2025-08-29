@@ -141,7 +141,14 @@ button:hover {
     background-position: right;
 }
 
-#profile, #moreDeets {
+#moreDeets {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+#profile{
     opacity: 0;
     width: auto;
     transform: translateY(40px);
