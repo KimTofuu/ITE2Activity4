@@ -4,7 +4,7 @@ document.getElementById('profileBtn').onclick = function() {
     setTimeout(function() {
         profile.classList.add('show');
     }, 10);
-    document.getElementById('profileBtn').style.display = 'none';
+    document.getElementById('proceed').style.display = 'none';
 };
 
 document.getElementById('viewMore').onclick = function() {
