@@ -4,12 +4,12 @@ document.getElementById('profileBtn').onclick = function() {
     setTimeout(function() {
         profile.classList.add('show');
     }, 10);
-    document.getElementById('profileBtn').style.display = 'none';
+    document.getElementById('proceed').style.display = 'none';
 };
 
 document.getElementById('viewMore').onclick = function() {
     var moreDeets = document.getElementById('moreDeets');
-    moreDeets.style.display = 'block';
+    moreDeets.style.display = 'flex';
     setTimeout(function() {
         moreDeets.classList.add('show');
     }, 10);
