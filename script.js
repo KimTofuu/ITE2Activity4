@@ -6,12 +6,3 @@ document.getElementById('profileBtn').onclick = function() {
     }, 10);
     document.getElementById('proceed').style.display = 'none';
 };
-
-document.getElementById('viewMore').onclick = function() {
-    var moreDeets = document.getElementById('moreDeets');
-    moreDeets.style.display = 'flex';
-    setTimeout(function() {
-        moreDeets.classList.add('show');
-    }, 10);
-    document.getElementById('viewMore').style.display = 'none';
-};
