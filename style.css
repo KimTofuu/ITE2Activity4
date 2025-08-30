@@ -67,6 +67,10 @@ body {
     animation: rotateWiggle 1s linear infinite;
 }
 
+#profileBtn:hover{
+    transform: scale(10);
+}
+
 #viewMore {
     padding: 14px 36px;
     background: linear-gradient(90deg, #a4508b 0%, #f7666f 100%);
