@@ -69,32 +69,6 @@ body {
     animation: rotateWiggle 1s linear infinite;
 }
 
-#viewMore {
-    padding: 14px 36px;
-    background: linear-gradient(90deg, #a4508b 0%, #f7666f 100%);
-    color: #fff;
-    z-index: 2;
-    border: none;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    box-shadow: 0 4px 16px rgba(164, 80, 139, 0.15);
-    cursor: pointer;
-    transition: background-position 0.5s, transform 0.15s, box-shadow 0.15s;
-    outline: none;
-    letter-spacing: 1px;
-    background-size: 200% 100%;
-    background-position: left;
-    margin-bottom: 24px;
-    box-shadow: 10px 8px 24px rgba(26, 25, 25, 0.4);
-}
-
-#viewMore:hover {
-    transform: translateY(-3px) scale(1.04);
-    box-shadow: 20px 7px 24px rgba(0, 0, 0, 0.7);
-    background-position: right;
-}
-
 #moreDeets {
     display: flex;
     flex-direction: row;
@@ -124,11 +98,6 @@ body {
     z-index: 10;
     text-align: left;
 }
-
-/* #profile .main {
-    text-align: left;
-    margin: 0; /* Remove auto margin to prevent centering 
-} */
 
 #profile.show{
     opacity: 1;
@@ -198,22 +167,6 @@ body {
     font-weight: 700;
     margin-bottom: 0.2em;
     letter-spacing: -1px;
-}
-
-#viewMore{
-    margin-top: 10px;
-}
-
-.personalInfo, .educInfo, .jobInfo {
-    background: #faf7fd;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(164, 80, 139, 0.06);
-    padding: 20px 18px;
-    min-width: 170px;
-    flex: 1 1 220px;
-    max-width: 260px;
-    text-align: left;
-    margin-bottom: 16px;
 }
 
 .title {
