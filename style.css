@@ -291,3 +291,89 @@ body {
   transform: scale(0.95);
   box-shadow: 0 0 10px rgba(61, 160, 15, 0.7);
 }
+
+@media (max-width: 900px) {
+    #profile {
+        flex-direction: column-reverse; /* Reverse the order */
+        align-items: center;           /* Center content */
+        gap: 24px;                     /* Adjust spacing */
+    }
+
+    .main {
+        flex-direction: column-reverse; /* Reverse the order */
+        align-items: center; 
+        max-width: 100%;              /* Allow full width for details */
+        text-align: center;           /* Center text for better readability */
+    }
+
+    .picture {
+        align-items: center;          /* Center the image */
+        max-width: 100%;              /* Allow full width */
+    }
+
+    .img {
+        width: 240px;                 /* Reduce image size */
+        height: 240px;
+    }
+
+    .handwritten.intro {
+        left: 0;                      /* Adjust position */
+        top: -20px;
+        font-size: 1rem;              /* Reduce font size */
+    }
+
+    .handwritten.note {
+        right: 0;                     /* Adjust position */
+        bottom: -20px;
+        font-size: 0.9rem;            /* Reduce font size */
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        overflow:scroll;
+    }
+    .title {
+        font-size: 1.5rem;     /* Reduce title size */
+    }
+
+    .img {
+        width: 180px;          /* Further reduce image size */
+        height: 180px;
+    }
+
+    .handwritten.intro {
+        left: -50px; /* Move intro closer to the left */
+        top: 20px;   /* Adjust vertical position */
+        font-size: 1rem; /* Keep font size readable */
+    }
+
+    .handwritten.note {
+        left: 225px; /* Move note to the left */
+        bottom: 60px; /* Adjust vertical position */
+        right: auto; /* Remove right positioning */
+        text-align: left; /* Align text to the left */
+        font-size: 0.9rem; /* Reduce font size slightly */
+    }
+
+    #beamBtn {
+        font-size: 0.9rem;     /* Reduce button font size */
+        padding: 10px 20px;    /* Adjust padding */
+        display: block;        /* Ensure block-level behavior */
+        margin: 20px auto;   /* Adjust padding */
+    }
+
+    .icons {
+        width: 30px;           /* Further reduce icon size */
+        height: 30px;
+    }
+
+    .details{
+        padding: 20px;
+    }
+
+    #beam{
+        top: 0;               /* Start at the top of the viewport */
+        height: 120vh;
+    }
+}
