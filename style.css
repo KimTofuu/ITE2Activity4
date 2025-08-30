@@ -51,10 +51,10 @@ body {
 
 @keyframes rotateWiggle {
     0% { transform: rotate(0deg); }
-    4% { transform: rotate(-15deg); }
-    6% { transform: rotate(10deg); }
-    8% { transform: rotate(-10deg); }
-    10% { transform: rotate(0deg); }
+    20% { transform: rotate(-20deg); }
+    40% { transform: rotate(20deg); }
+    50% { transform: rotate(-20deg); }
+    75% { transform: rotate(0deg); }
     100% { transform: rotate(0deg); }
 }
 
@@ -64,7 +64,11 @@ body {
     cursor: pointer;
     z-index: 10;
     outline: none;
-    animation: rotateWiggle 1.5s linear infinite;
+    animation: rotateWiggle 1s linear infinite;
+}
+
+#profileBtn:hover{
+    transform: scale(10);
 }
 
 #viewMore {
