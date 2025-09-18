@@ -22,7 +22,7 @@ beamBtn.addEventListener("click", () => {
   beam.style.animation = "beamSweep 1.5s ease-out forwards";
   
   // Reset animation after it finishes
-  beam.addEventListener("animationend", () => {
+  beam.addEventListener("animationend", function() {
     beam.style.animation = "none";
   }, { once: true });
 });
